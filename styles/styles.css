@@ -1,10 +1,45 @@
 
+main img {
+  width: 150px;
+  height: auto;
+  border: 2px solid var(--steel-blue);
+  padding: 5px;
+  box-shadow: 0 8px 30px gray;
+  float: right;
+  margin: 0 0 1rem 1rem;
+  @media (max-width: 768px) {
+  margin: 0 auto;
+  }
+}
+
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(red, green, blue, alpha); 
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+
 :root {
     --steel-blue: steelblue;
   }
+
+.box{
+  margin: 1rem;
+  border: 1px solid rgba(red, green, blue, alpha);
+  padding: 1rem;
+  background-color: #ddd;
+  color:#000;
+}
+aside h2{
+  position: absolute;
+  top: 85px;
+  left: 180px;
+}
   
   main {
-    max-width: 840px;
+    max-width: 640px;
   }
   
   nav a {
@@ -22,13 +57,7 @@
     color: var(--steel-blue);
   }
   
-  main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid var(--steel-blue);
-    padding: 2px;
-    box-shadow: 0 8px 30px gray;
-  }
+  
   
   p {
     padding: 0;
@@ -36,12 +65,8 @@
   
   aside {
     width: 20em;
-    margin: 1em;
-    border: 1em solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+   text-align: center;
+   position: relative;
   }
   
   aside img {
