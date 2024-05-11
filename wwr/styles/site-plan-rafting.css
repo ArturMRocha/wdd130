@@ -1,13 +1,11 @@
 :root {
   /* Colors */
-  --primary-color: #3498db;
-  --secondary-color: #f1c40f;
-  --accent1-color: #8e44ad;
-  --accent2-color: #2ecc71;
-  --nav-background-color: #333; /* default value */
-  --nav-link-color: #fff;
-  --nav-hover-color: #ccc;
-  --nav-hover-background-color: #444;
+  
+  --primary-color: #007BFF; /* blue (from site plan documentation) */
+  --secondary-color: #FFC107; /* amber (from site plan documentation) */
+  --background-color: #F8F9FA; /* light gray (from site plan documentation) */
+  --text-color: #212529; /* dark gray (from site plan documentation) */
+  --font-family: 'Open Sans', sans-serif;
 
   /* Fonts */
   --font-family: 'Merriweather', serif;
