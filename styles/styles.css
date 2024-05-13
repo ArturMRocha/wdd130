@@ -1,88 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+nav {
+  background-color: steelblue;
+  padding: 10px;
+}
+nav a {
+  color: #eee;
+  display: block;
+  padding: 20px;
+}
+h1 {
+  color:steelblue;
+}
+img {
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+p{
+  padding: 10px;
+}
+body {
+  font-family: Georgia;
+}
+main {
+  max-width: 840px;
+}
+aside {
+  width: 20rem;
+  text-align: center;
+  position: relative;
+}
+aside img {
+  width: 200px;
+  height: auto;
+}
+aside h2 {
+  position: absolute;
+  left: 21%;
+  top: 26%;
+  color: #eee;
+}
 main img {
   width: 150px;
   height: auto;
-  border: 2px solid var(--steel-blue);
-  padding: 5px;
-  box-shadow: 0 8px 30px gray;
   float: right;
-  margin: 0 0 1rem 1rem;
-  @media (max-width: 768px) {
-  margin: 0 auto;
-  }
+}
+p {
+  padding: 0;
+}
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+  background-color: steelblue;
+  
+}
+footer p {
+  color: #eee;
+  padding: 20px;
 }
 
-
+/* Class Selectors */
 .box {
   margin: 1rem;
-  border: 1px solid rgba(red, green, blue, alpha); 
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  background-color: #ddd;
-  color: #000;
+  background-color: #eee;
+  color: #333;
 }
-
-:root {
-    --steel-blue: steelblue;
-  }
-
-.box{
-  margin: 1rem;
-  border: 1px solid rgba(red, green, blue, alpha);
-  padding: 1rem;
-  background-color: #ddd;
-  color:#000;
-}
-aside h2{
-  position: absolute;
-  top: 85px;
-  left: 180px;
-}
-  
-  main {
-    max-width: 640px;
-  }
-  
-  nav a {
-    background-color: var(--steel-blue);
-    padding: 10px;
-  }
-  
-  nav a {
-    color: white;
-    padding: 10px;
-    display: block;
-  }
-  
-  h1 {
-    color: var(--steel-blue);
-  }
-  
-  
-  
-  p {
-    padding: 0;
-  }
-  
-  aside {
-    width: 20em;
-   text-align: center;
-   position: relative;
-  }
-  
-  aside img {
-    width: 200px;
-    height: auto;
-  }
-  
-  footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-  }
-  
-  @media (max-width: 600px) {
-    main,
-    aside {
-      width: 100%;
-    }
-  }
