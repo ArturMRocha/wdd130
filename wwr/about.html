@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    <header>
+    <header class="grid">
         <img src="images/rapids-logo.jpg" alt="RapidFlow Rafting Brotas City Logo" width="100">
-        <nav>
-            <a href="http://127.0.0.1:5500/index.html">Home</a>
-            <a href="http://127.0.0.1:5500/wwr/about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+        <nav class="flex">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/wwr/about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -28,25 +30,46 @@
                 <p>Navigate the wild thrills of the waters and go down the rapids with us! Who are we? Rafting Brotas has been running clean rivers and tributaries since 1990. What else is there besides rafting?  We have trails and waterfalls to enjoy. Who will lead us? We have professionals monitoring the route and ensuring your safety during the day's adventures.</p>
             </article>
         </div>
-        <section>
+        <section class="grid-2">
             <h2>History</h2>
-            <p>The history of rafting in Brotas dates back to the late 1980s and early 1990s. The city stood out as a destination for ecotourism and adventure, with rivers such as the Rio Jacaré-Pepira offering ideal conditions for rafting. The first operators began offering guided tours, and today Brotas is known as the “Rafting Capital” of Brazil, attracting visitors from all over the country and abroad. </p>
+            <img src="images/brotas-rafting.jpg" alt="" width="500">
+            <p id="first-p"> The history of rafting in Brotas dates back to the late 1980s and early 1990s. The city stood out as a destination for ecotourism and adventure, with rivers such as the Rio Jacaré-Pepira offering ideal conditions for rafting. The first operators began offering guided tours, and today Brotas is known as the “Rafting Capital” of Brazil, attracting visitors from all over the country and abroad.  </p>
         </section>
-        <section>
+        <section class="grid-3">
             <h2>Adventure Awaits You</h2>
-            <p>Brotas Rafting</p>
-            <img src="images/brotas-rafting.jpg" alt="brotas-rafting"  width="1000">
-            <p>Night Rafting</p>
-            <img src="images/night-rafting.webp" alt="night-rafting" width="1000">
-            <p>Duck radical rafting</p>
-            <img src="images/Duck-radical.jpg" alt="Duck-radical" width="1000">
-            <p>Mini Rafting</p>
-            <img src="images/Mini-Rafting.jpg"  alt=" Mini-Rafting"   width="1000">
-            <p>waterfalls and trails</p>
-            <img src="images/cachoeira-quedas.jpg" alt="cachoeira-quedas" width="1000">
+            <figure id="first-img">
+                <img class="adventure-img" src="images/brotas-rafting.jpg" alt=""  width="200">
+            </figure>
+            <div id="first-p2">
+                <p>brotas rafting</p>
+            </div>
+            <figure id="second-img">
+                <img src="images/night-rafting.webp" alt="" width="250"> 
+            </figure>
+            <div id="second-p2">
+                <p>night rafting</p>
+            </div>
+            <figure id="third-img">
+                <img src="images/Duck-radical.jpg" alt="" width="200">
+            </figure>
+            <div id="third-p2">
+                <p>Duck radical</p>
+            </div>
+            <figure id="fourth-img">
+                <img src="images/Mini-Rafting.jpg"  alt=""   width="180">
+            </figure>
+            <div id="fourth-p2">
+                <p>Mini rafting</p>
+            </div>
+            <figure id="fifth-img">
+                <img src="images/cachoeira-quedas.jpg" alt="" width="200">
+            </figure>
+            <div id="fifth-p2">
+                <p>waterfalls and trails</p>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="grid-4">
         <p>&copy; 2024 | RapidFlow Rafting | Arthur Rocha </p>
         <nav class="sociallinks">
             <a href="https://www.facebook.com/"><img src="images/face-icone.webp"  alt="Facebook"  width="45"></a>
